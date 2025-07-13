@@ -38,7 +38,7 @@ plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
 # 加载数据
 # 注意：根据实际数据路径调整
-data = pd.read_csv('"C:\Users\30358\Desktop\aiSummerCamp2025-master\day1\assignment1\data\train.csv"')  
+data = pd.read_csv(r'C:\Users\30358\Desktop\aiSummerCamp2025-master\day1\assignment1\data\train.csv')  
 if data.empty:
     raise ValueError("数据加载失败，请检查文件路径是否正确")
 
